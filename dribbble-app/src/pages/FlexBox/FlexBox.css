@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+header, footer {
+    background: yellowgreen;
+    height:20vh;
+}
+
+.main {
+    display: flex;
+    height:60vh;
+}
+
+.main > nav ,
+.main >aside {
+    width:20vw;
+    background:beige;
+}
+
+.main > article {
+    flex:1;
+}
+
